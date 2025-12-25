@@ -43,7 +43,7 @@ fun VideoPlayerScreen() {
     }
 
     // Sample video URL (Big Buck Bunny)
-    val videoUrl = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    val videoUrl = "https://www.youtube.com/watch?v=uvYE95s03p0"
 
     val exoPlayer = remember {
         ExoPlayer.Builder(context).build().apply {
