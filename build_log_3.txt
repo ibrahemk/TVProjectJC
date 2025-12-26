@@ -16,12 +16,11 @@
 > Task :app:processDebugResources UP-TO-DATE
 
 > Task :app:compileDebugKotlin FAILED
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:13:29 Unresolved reference 'NavDisplay'.
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:40:21 Unresolved reference 'NavDisplay'.
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:42:25 Cannot infer type for this parameter. Please specify it explicitly.
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:44:37 @Composable invocations can only happen from the context of a @Composable function
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:47:43 @Composable invocations can only happen from the context of a @Composable function
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:51:44 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:14:29 Unresolved reference 'NavEntry'.
+e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:44:25 Unresolved reference 'NavEntry'.
+e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:46:41 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:49:47 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:53:48 @Composable invocations can only happen from the context of a @Composable function
 
 FAILURE: Build failed with an exception.
 
@@ -36,5 +35,5 @@ Execution failed for task ':app:compileDebugKotlin'.
 > Run with --scan to get full insights.
 > Get more help at https://help.gradle.org.
 
-BUILD FAILED in 1s
+BUILD FAILED in 2s
 14 actionable tasks: 1 executed, 13 up-to-date

@@ -16,8 +16,10 @@
 > Task :app:processDebugResources UP-TO-DATE
 
 > Task :app:compileDebugKotlin FAILED
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:13:29 Unresolved reference 'NavDisplay'.
-e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:40:21 Unresolved reference 'NavDisplay'.
+e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:40:21 None of the following candidates is applicable:
+fun <T : Any> NavDisplay(backStack: List<T>, modifier: Modifier = ..., contentAlignment: Alignment = ..., onBack: () -> Unit = ..., entryDecorators: List<NavEntryDecorator<T>> = ..., sceneStrategy: SceneStrategy<T> = ..., sizeTransform: SizeTransform? = ..., transitionSpec: AnimatedContentTransitionScope<Scene<T>>.() -> ContentTransform = ..., popTransitionSpec: AnimatedContentTransitionScope<Scene<T>>.() -> ContentTransform = ..., predictivePopTransitionSpec: AnimatedContentTransitionScope<Scene<T>>.(Int) -> ContentTransform = ..., entryProvider: (@ParameterName(...) T) -> NavEntry<T>): Unit
+fun <T : Any> NavDisplay(entries: List<NavEntry<T>>, modifier: Modifier = ..., contentAlignment: Alignment = ..., sceneStrategy: SceneStrategy<T> = ..., sizeTransform: SizeTransform? = ..., transitionSpec: AnimatedContentTransitionScope<Scene<T>>.() -> ContentTransform = ..., popTransitionSpec: AnimatedContentTransitionScope<Scene<T>>.() -> ContentTransform = ..., predictivePopTransitionSpec: AnimatedContentTransitionScope<Scene<T>>.(Int) -> ContentTransform = ..., onBack: () -> Unit): Unit
+fun <T : Any> NavDisplay(sceneState: SceneState<T>, navigationEventState: NavigationEventState<SceneInfo<T>>, modifier: Modifier = ..., contentAlignment: Alignment = ..., sizeTransform: SizeTransform? = ..., transitionSpec: AnimatedContentTransitionScope<Scene<T>>.() -> ContentTransform = ..., popTransitionSpec: AnimatedContentTransitionScope<Scene<T>>.() -> ContentTransform = ..., predictivePopTransitionSpec: AnimatedContentTransitionScope<Scene<T>>.(Int) -> ContentTransform = ...): Unit
 e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:42:25 Cannot infer type for this parameter. Please specify it explicitly.
 e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:44:37 @Composable invocations can only happen from the context of a @Composable function
 e: file:///C:/Users/zizo/AndroidStudioProjects/TVProjectJC/app/src/main/java/com/example/tvprojectjc/MainActivity.kt:47:43 @Composable invocations can only happen from the context of a @Composable function
@@ -36,5 +38,5 @@ Execution failed for task ':app:compileDebugKotlin'.
 > Run with --scan to get full insights.
 > Get more help at https://help.gradle.org.
 
-BUILD FAILED in 1s
+BUILD FAILED in 2s
 14 actionable tasks: 1 executed, 13 up-to-date
