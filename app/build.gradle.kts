@@ -57,6 +57,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.core)
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.ui)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
@@ -64,4 +66,10 @@ dependencies {
 
 
     implementation(libs.kotlinx.serialization.json.v173)
+
+    // Required for TvLazyColumn
+    implementation(libs.androidx.tv.foundation)
+
+    // Recommended for TV UI components (Text, Cards, etc.)
+    implementation(libs.androidx.tv.material.v101)
 }
